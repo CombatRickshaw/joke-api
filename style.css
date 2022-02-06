@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 20vh;
+    width: 100vw;    
+}
+
+nav {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101826;
+}
+
+.icon-text, .emoji-transition {
+    padding: 2.5em;
+}
+
+.emoji-transition {
+    font-size: 2em;
+}
+
+/* 
+
+#emoji:hover::after {
+    content: "😵‍💫";
+
+} */
+
+
+.joke-selector-container {
+    height: 10vh;
+    width: 100vw;
+    background-color: #1F2934;
+}
+
+/* .joke-type-selector > p {
+    color:white
+} */
+
+.joke-type-dad {
+    color:#5EE4AC;
+}
+
+.joke-type-dank {
+    color: white;
+}
+
+.image-content {
+    font-size: 12.5rem;
+    cursor: pointer;
+}
+
+.joke-type-selector {
+    height: 10vh;
+    width: 7.5vw;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+#khep {
+    color: white;
+    font-size: 2em;
+}
+
+#jox {
+    color: #66E6AE;
+    font-size: 2em
+}
+
+
+/* .linehover-dad {
+    color: white;
+    position: relative;
+}
+
+.linehover-dad::after {
+    color: white;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #5EE4AC;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition:  transform 250ms ease-in;
+}
+
+.linehover-dad:hover::after {
+    transform: scaleX(1);
+}
+
+
+.linehover-dank {
+    color: white;
+    position: relative;
+}
+
+.linehover-dank::after {
+    color: white;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #5EE4AC;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition:  transform 250ms ease-in;
+}
+
+.linehover-dank:hover::after {
+    transform: scaleX(1);
+}
+ */
+
+
+.main-content {
+    height: 80vh;
+    width: 100vw;
+    background-color: #1F2934;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joke-container-div {
+    height: 80vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2934;
+}
+
+.image-container-div {
+    height: 80vh;
+    width: 40vw;
+    background-color: #1F2934;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.joke-content {
+    height: 25vh;
+    width: 30vw;
+    background-color: #5EE4AC;
+    border-radius: 0.75em;
+    padding: 2rem;
+}
+
+.delivery, .setup {
+    margin-top: 3rem;
+}
+/* .image-content {
+    height: 30vh;
+    width: 30vw;
+    background-color: black;
+} */
+
+.hide {
+    font-size: 0;
+}
+
+.color {
+    color: #1F2934;
+}
+
+#click-here {
+    font-size: 1.25em;
+    color: #5EE4AC;
+}
